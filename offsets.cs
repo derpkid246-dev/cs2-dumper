@@ -1,48 +1,46 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-08-06 21:45:44.402666 UTC
+// 2026-11-20 22:31:27.150903 UTC
 
 namespace CS2Dumper.Offsets {
     // Module: client.dll
     public static class ClientDll {
-        public const nint dwCSGOInput = 0x23BA790;
-        public const nint dwEntityList = 0x254FE80;
-        public const nint dwGameEntitySystem = 0x254FE80;
-        public const nint dwGameEntitySystem_highestEntityIndex = 0x2090;
-        public const nint dwGameRules = 0x23A49D8;
-        public const nint dwGlobalVars = 0x2090D60;
-        public const nint dwGlowManager = 0x23A1708;
-        public const nint dwLocalPlayerController = 0x237FB80;
-        public const nint dwLocalPlayerPawn = 0x23A5238;
-        public const nint dwPrediction = 0x23A5140;
-        public const nint dwSensitivity = 0x23A2228;
-        public const nint dwViewAngles = 0x23BAE18;
-        public const nint dwViewMatrix = 0x23AA340;
-        public const nint dwViewRender = 0x23AA398;
-        public const nint dwWeaponC4 = 0x231DB50;
+        public const nint dwCSGOInput = 0x256D560;
+        public const nint dwEntityList = 0x270D5B0;
+        public const nint dwGameEntitySystem = 0x270D5B0;
+        public const nint dwGameEntitySystem_highestEntityIndex = 0x2120;
+        public const nint dwGameRules = 0x25573F8;
+        public const nint dwGlobalVars = 0x2223AD0;
+        public const nint dwGlowManager = 0x2554110;
+        public const nint dwLocalPlayerController = 0x252F300;
+        public const nint dwLocalPlayerPawn = 0x2557AB8;
+        public const nint dwPrediction = 0x25579C0;
+        public const nint dwViewAngles = 0x256DBE8;
+        public const nint dwViewMatrix = 0x255D3D0;
+        public const nint dwViewRender = 0x255DD98;
+        public const nint dwWeaponC4 = 0x24BBC00;
     }
     // Module: engine2.dll
     public static class Engine2Dll {
-        public const nint dwBuildNumber = 0x60F594;
-        public const nint dwNetworkGameClient = 0x90D4B0;
-        public const nint dwNetworkGameClient_clientTickCount = 0x378;
+        public const nint dwBuildNumber = 0x6B2D1C;
+        public const nint dwNetworkGameClient = 0x9AFB90;
+        public const nint dwNetworkGameClient_clientTickCount = 0x398;
         public const nint dwNetworkGameClient_deltaTick = 0x24C;
         public const nint dwNetworkGameClient_localPlayer = 0xF8;
         public const nint dwNetworkGameClient_maxClients = 0x240;
         public const nint dwNetworkGameClient_serverTickCount = 0x24C;
         public const nint dwNetworkGameClient_signOnState = 0x230;
-        public const nint dwWindowHeight = 0x9118D4;
-        public const nint dwWindowWidth = 0x9118D0;
+        public const nint dwWindowHeight = 0x9B42EC;
+        public const nint dwWindowWidth = 0x9B42E8;
     }
     // Module: inputsystem.dll
     public static class InputsystemDll {
-        public const nint dwInputSystem = 0x45BA0;
+        public const nint dwInputSystem = 0x46BC0;
     }
     // Module: matchmaking.dll
     public static class MatchmakingDll {
-        public const nint dwGameTypes = 0x1ADF80;
+        public const nint dwGameTypes = 0x1AEFC0;
     }
     // Module: soundsystem.dll
     public static class SoundsystemDll {
-        public const nint dwSoundSystem_engineViewData = 0x7C;
     }
 }
